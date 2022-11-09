@@ -60,7 +60,7 @@ if __name__ == "__main__":
                     'pose': nearest_pose,
                 }
                 
-                save_file = Path(args.output) / 'scan_data_{}.pickle'.format(count)
+                save_file = Path(args.output) / 'scan_data_{:07d}.pickle'.format(count)
                 with open(save_file, mode="wb") as f:
                     pickle.dump(scan_data, f)
 
