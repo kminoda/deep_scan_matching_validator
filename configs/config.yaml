@@ -1,0 +1,4 @@
+experiment_name: 'test'
+dataset_path: '/home/minoda/git/deep_scan_matching_validator/dataset'
+output_path: '/home/minoda/git/deep_scan_matching_validator/outputs/trained_results'
+num_epoch: 30
